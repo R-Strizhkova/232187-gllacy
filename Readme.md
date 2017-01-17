@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Рита Стрижкова](https://up.htmlacademy.ru/htmlcss/16/user/232187).
-* Наставник: `Неизвестно`.
+* Наставник:`Шамиль Алисултанов`.(https://htmlacademy.ru/profile/adrenaline).
 
 ---
 
