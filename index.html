@@ -3,33 +3,35 @@
 	<head>
 		<title>Глейси</title>
 		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
 <!-- Шапка сайта -->
 		<header class="main-header">
-			<div class="container">
+			<div class="container clearfix">
 				<div class="left-column">
-					<div class="logo">
-						<img src="img/logo.png" alt="Мороженое Глейси" width="154" height="64">
-					</div>
+					<img class="logo" src="img/logo.png" alt="Мороженое Глейси" width="154" height="64">
 					<nav class="main-navigation">
 						<ul>
 							<li><a href="#">Каталог</a></li>
 							<li><a href="#">Доставка и оплата</a></li>
-							<li><a href="#">О компании</a></li>
+							<li><a href="#">О Компании</a></li>
 						</ul>				
 					</nav>
 				</div>
 				<div class="right-column">
-					<div class="header-search">
-							
+					<div class="header-search ">
+						<div class="icon-search">
+							<a href="header-link"></a>
+						</div>	
 					</div>
-					<div class="header-user-block">
-						<a href="#">Вход</a>
+					<div class="user-block">
+						<a class="header-link" href="#" class="">Вход</a>
 					</div>
 					<div class="header-backet">
-						<a href="#">Корзина</a>
+						<a class="header-link" href="#">Корзина</a>
 					</div>
 					<div class="header-contact">
 						<p>c 10 до 20, ежедневно</p>
@@ -40,13 +42,13 @@
 		</header>
 <!-- Слайдер-->
 		<div class="slider">
-					
+		
 		</div>
 <!--Основное содержание  -->
 		<main class="main-content">
 			<div class="container">
 	<!-- Акции и предложения -->
-				<div class="stock">
+				<div class="stock clearfix">
 					<div class="stock-left">
 						<h3>Малинка даром!</h3>
 						<p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.
@@ -61,7 +63,7 @@
 					</div>
 				</div>
 	<!-- Товары -->
-				<section class="catalog">
+				<section class="catalog clearfix">
 					<article class="item">
 						<figure >
 							<img src="img/ice-cream-item1.png" width="267" height="267" alt="мороженное с апельсиновым джемом и цитрусовой стружкой">
@@ -92,7 +94,7 @@
 					</article>
 				</section>
 	<!-- Блок описания -->
-				<div class="title-about">
+				<div class="title-about clearfix">
 					<h1>Магазин Глейси-это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</h1>
 					<div class="about-left">
 						<div class="about-left-top">
@@ -111,7 +113,7 @@
 					</div>
 				</div>	
 	<!-- Новости -->
-				<div class="blog-subscription">
+				<div class="blog-subscription clearfix">
 					<div class="blog">
 						<p>Новое в нашем блоге</p>
 						<a href="#">10 способов сервировки фруктовых щербетов к столу</a>
@@ -129,21 +131,23 @@
 		<div class="maps">	
 		</div>
 <!-- Адресс и контактная форма -->
-		<div class="contact-form">
-			<address>
-				Адрес главного офиса<br>
-				и офлайн магазина:<br>
-				ул. Большая Конюшенная 19/8, Санкт-Петербург
-			</address>
-			<p>Для заказов по телефону:<br>
-				8 812 450-25-25<br>
-				(с 10 до 20 ежедневно)<br>
-			</p>
-			<button class="btn-form" type="button">Форма обратной связи</button>
+		<div class="contact-form clearfix">
+			<div class="contact-form-adress">
+				<address>
+					Адрес главного офиса<br>
+					и офлайн магазина:<br>
+					ул. Большая Конюшенная 19/8, Санкт-Петербург
+				</address>
+				<p>Для заказов по телефону:<br>
+					8 812 450-25-25<br>
+					(с 10 до 20 ежедневно)<br>
+				</p>
+				<button class="btn-form" type="button">Форма обратной связи</button>
+			</div>
 		</div>
 <!-- Подвал -->
 		<footer class="main-footer">
-			<div class="container">
+			<div class="container clearfix">
 				<div class="footer-social">
 					<a class="social-btn social-btn-tv" href="#">Твиттер</a>
 					<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
@@ -152,13 +156,13 @@
 				</div>
 				<div class="menu-second">
 					<a href="#">Для поставщиков</a>
-					<a href="#">О производстве</a>
+					<a href="#">О производстве</a><br>
 					<a href="#">Наши документы</a>
 					<a href="#">Экологические стандаты</a>
 				</div>
 				<div class="footer-copyright">
-          			<img src="#" alt="Разработано htmlacademy" width="" height="">
-          			<a class="btn" href="https://htmlacademy.ru">Сделано в HTML Academy &#169;</a>
+          			<img src="#" alt="Разработано htmlacademy" width="" height=""><br>
+          			<a class="" href="https://htmlacademy.ru">Сделано в HTML Academy &#169;</a>
         		</div>
 			</div>
 		</footer>
