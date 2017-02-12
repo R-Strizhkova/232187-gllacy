@@ -25,16 +25,16 @@
 										<li class="sub-menu-item">
 											<a href="">Новинки</a>
 										</li>
-										<li>
+										<li class="sub-menu-item">
 											<a href="">Сливочное</a>
 										</li>
-										<li>
+										<li class="sub-menu-item">
 											<a href="">Щербеты</a>
 										</li>
-										<li>
+										<li class="sub-menu-item">
 											<a href="">Фруктовый лед</a>
 										</li>
-										<li>
+										<li class="sub-menu-item">
 											<a href="">Мелорин</a>
 										</li>
 									</ul>
@@ -49,9 +49,30 @@
 							<div class="icon-search">
 								<a class="header-link" href=""></a>
 							</div>
+							<div class="header-search-form">
+								<form  class="block-header-search-form" action="#" method="post">
+									<input id="search-block" type="text" name="search" placeholder="Что ищем?">
+									<label for="search-block"></label>
+								</form>
+							</div>
 						</div>
 						<div class="user-block">
 							<a class="header-link" href="#">Вход</a>
+							<div class="login-block-form">
+								<form  class="user-block-form" action="#" method="post">
+									<input id="email" type="email" name="email" placeholder="Электронная почта">
+									<input id="password" type="password" name="password" placeholder="Пароль">
+									<label for="email"></label>
+									<label for="password"></label>
+									<div class="enter">
+										<input class="btn" type="submit" name="Войти" value="Войти">
+									</div>
+									<div class="links">
+										<a class="forgot-password" href="#">Забыли пароль?</a>
+										<a class="new-registration" href="">Новая регистрация</a>
+									</div>
+								</form>
+							</div>
 						</div>
 						<div class="header-backet">
 							<a class="header-link" href="#">Корзина</a>
@@ -234,6 +255,25 @@
         		</div>
 			</div>
 		</footer>
+	</div>
+	<div class="modal-content modal-show">
+		<button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+		<form class="feedback-form" method="post" action="" >
+			<h3 class="modal-content-title">Мы обязательно Вам ответим!</h3>
+			<div class="control">
+				<input id="modal-name" type="text" name="name" placeholder="Как Вас зовут?">
+				<label for="modal-name">Как Вас зовут?</label>
+			</div>
+			<div class="control">
+				<input id="modal-email" type="text" name="email" placeholder="Ваша почта для ответа?">
+				<label for="modal-email">Ваша почта для ответа?</label>
+			</div>
+			<div class="control">
+				<textarea id="modal-text" name="text" cols="30" rows="5" placeholder="Напишите что-нибудь..."></textarea>
+				<label for="modal-text">Напишите что-нибудь...</label>
+			</div>
+			<input class="btn" type="submit" name="Отправить" value="Отправить">
+		</form>
 	</div>
 	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=ZRyIMFLxziNODfjjjy3DTkNcJqNhhyDD&amp;width=100%25&amp;height=430&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true&amp;id=yandex-map"></script>	
 	</body>
