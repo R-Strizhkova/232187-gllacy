@@ -1958,6 +1958,7 @@ td > span{
   color: #ffffff;
   text-decoration: none;
   text-shadow: none;
+  line-height: 18px;
   border: none;
   background-color: rgba(251,252,251,0.2);
   border-radius: 18px ;
