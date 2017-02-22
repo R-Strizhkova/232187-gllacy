@@ -9,10 +9,6 @@ body{
   background-color: #849d8f;
 }
 
-body > input[type="radio"]{
-  display: none;
-}
-
 img{
   max-width: 100%;
   height: auto;
@@ -23,6 +19,9 @@ img{
   box-sizing: border-box;
 }
 
+.slide-input{
+  display: none;
+}
 .site-wrapper{
   min-width: 1180px;
   background-color: #849d8f;
