@@ -2228,3 +2228,22 @@ td > span{
   text-decoration: none;
   color: #ffffff;
 }
+
+.catalog-price .rubl{
+  display: inline-block;
+  position: relative;
+  margin-left: -6px;
+  vertical-align: middle;
+  width: 30px;
+  height: 36px;
+}
+
+.rubl::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -2px;
+  background: url(../img/rubl.png) no-repeat;
+  width: 30px;
+  height: 36px;
+}
