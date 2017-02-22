@@ -1991,6 +1991,30 @@ td > span{
   border-radius: 50%;
 }
 
+.block-fat-filter input:disabled + label::before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: -1px;
+  left: -1px;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 50%; 
+}
+
+.block-fat-filter input:disabled + label:hover::before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: -1px;
+  left: -1px;
+  box-shadow: inset 0 0 0 2px transparent;
+  border-radius: 50%;
+}
+
 .fat-filter input[type="radio"]{
   display: none;
 }
@@ -2003,6 +2027,17 @@ td > span{
   width: 12px;
   height: 12px;
   background: #f8f7f4;
+  border-radius: 50%;
+}
+
+.block-fat-filter input:disabled + label::after{
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 12px;
+  height: 12px;
+  background: rgba(255,255,255,0.3);
   border-radius: 50%;
 }
 
@@ -2064,6 +2099,36 @@ td > span{
 .block-fillers label:hover::before{
   box-shadow: inset 0 0 0 1px #ffffff;
   border-radius: 5px;
+}
+
+.block-fillers input:disabled + label::before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 5px;
+}
+
+.block-fillers input:disabled + label::after{
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 5px;
+  width: 10px;
+  height: 7px;
+  border-left: 3px solid rgba(255,255,255,0.3);
+  border-bottom: 3px solid rgba(255,255,255,0.3);
+  transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);   
+}
+
+.block-fillers input:disabled + label:hover::before{
+  box-shadow: inset 0 0 0 1px transparent;
 }
 
 .button{
